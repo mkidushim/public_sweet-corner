@@ -1,50 +1,86 @@
-*,
-*:before,
-*:after {
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
-}
-
-html, body {
-    padding: 0;
-    margin: 0;
-}
-
-.container {
-    width: 1000px;
-    margin: 0 auto;
+body{
     color: #754b23;
     font-family: Verdana, Geneva, sans-serif;
 }
+
+/**
+* Generic classes
+*/
 
 .cursive {
     font-family: 'Monotype Corsiva', 'Apple Chancery', 'ITC Zapf Chancery', 'URW Chancery L', cursive;
     font-weight: 200;
 }
 
-/*
-    ==================================
-    ==            Header            ==
-    ==================================
+/**
+* Generic classes End
 */
+
+
+/**
+* Navbar styles start
+*/
+.navbar-toggle .icon-bar{
+    background-color: #754b23;
+}
+
+.navbar-toggle{
+    margin:0px;
+    background-color: #fff;
+}
+
+.navbar-toggle-con.affix{
+    width:100%;
+    background-color: #fff;
+    left:0px;
+    z-index:999;
+}
+.navbar-toggle.affix .icon-bar{
+    text-align: right
+}
+
+.navbar-collapse{
+    z-index: 999;
+}
+
+.navbar-collapse.affix{
+    top:34px;
+}
+
+nav li a{
+     color:#06b4af;
+}
+
+nav li.active{
+     background-color:#06b4af;
+}
+
+nav li.active a{
+    color:#fff;
+}
 
 .main-nav {
     list-style: none;
-    text-align: right;
+    top:0px;
 }
 
 .main-nav li {
     display: inline-block;
     
 }
-
 .main-nav li a {
-    margin-right: 40px;
     color: #754b23;
     text-decoration: none;
     text-transform: uppercase;
 }
+
+/**
+* Navbar styles End
+*/
+
+
+
+
 
 .main-logo {
     background-image: url("../images/logo.png");

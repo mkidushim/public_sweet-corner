@@ -1,57 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Sweet Corner</title>
-		<link rel="stylesheet" href="Assets/stylesheets/main.css">
-        <script src="Assets/js/main.js"></script>
-    </head>
-    
-   <body>
-       
-       <header class="container">
-               <img src="Assets/images/header.png" alt="colorful header">
-               <ul class="main-nav">
-                   <li><a href="index.html">Home</a></li>
-                   <li><a href="about-us.html">About Us</a></li>
-                   <li><a href="services.html">Services</a></li>
-                   <li><a href="contact.html">Contact</a></li>
-               </ul>
-               <div class="main-logo"></div>
-               <h1 class="logo-text cursive">We deliver cupcakes for the important events in your life!</h1>
-               <div class="brown-bar"></div>
-       </header>
-       
-       <section class="container">
-           <div class= "main-body home">
-              <div class="main-text">
-                  <h1>We cherish the sweet moments...</h1>
-                  <p>Sweet corner's story began first from our passion for sweets, which is inspired by our everyday job and also by the acknowledged weakness for sweets.</p>
-                  <p>For us, the Sweet Corner means: the right amount of sweet, flawless appearance, the combination of shape, color and proportion and a right and balanced decor for the event.</p>
-                  <p>We have been baking gourmet cupcakes, 100&#37; from scratch, since day one. We always use the finest and most natural ingredients we can find.</p>
-                  <h1>We can make happiness with so little&#33;</h1>
-                  <p>We can provide services for Weddings, Bar &amp; Bat Mitzvahs, Birthdays, Showers, Corporate Events, and any other special occasion&#33;</p>
-                  <p>Our expert bakers are waiting to create a memorable, unique cupcake bursting with freshness and flavour just for you.</p>
-                  <p>Their delicious taste, great variety and their sweet universe, colorful and flavorful cupcakes make the best choice for a chic desert. How could you resist these delicious cupcakes&#63;</p>
-              </div>
-              <img id="dots" src="Assets/images/dots-box2.png" alt="collection of several white dots">
-           </div>
-           
-           <div class="cursive" id="pic-text">Please note: you will be overwhelmed by the sweet content</div>
-           
-           <img class="bottom-img" src="Assets/images/cupcakes.png" alt="four large delicious cupcakes">
-           
-       </section>
-       
-       <footer class="container">
-           <section class="main-footer">
-               <img id="footer-dots" src="Assets/images/dots-footer.png" alt="collection of small white dots">
-               <div id="phone-number">
-                   <img id="phone" src="Assets/images/phone.png" alt="small white phone image">
-                   <small>800 264-2099</small>
-               </div>
-               <small id="copyright">Copyright &copy; 2015 Sweet Corner. All rights reserved.</small>
-           </section>
-       </footer>
-   </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sweet Corner</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <header class="col-xs-12">
+                <div class="row">
+                    <img src="Assets/images/header.png" alt="colorful header" class="banner-img col-xs-10 col-sm-12">
+                    <div class="navbar-toggle-con col-xs-2 hidden-sm">
+                        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="row hidden-xs">
+                    <nav class="main-nav">
+                        <ul>
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="row visible-xs">
+                    <nav class="navbar-collapse bs-navbar-collapse collapse well col-xs-12" aria-expanded="true">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about-us.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="services.html">Services</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-xs-12 main-logo"></div>
+                <h1 class="logo-text cursive">We deliver cupcakes for the important events in your life!</h1>
+                <div class="row">
+                    <div class="col-xs-12 brown-bar"></div>
+                </div>
+            </header>
+            <section class="container">
+                <div class="main-body home">
+                    <div class="main-text">
+                        <h1>We cherish the sweet moments...</h1>
+                        <p>Sweet corner's story began first from our passion for sweets, which is inspired by our everyday job and also by the acknowledged weakness for sweets.</p>
+                        <p>For us, the Sweet Corner means: the right amount of sweet, flawless appearance, the combination of shape, color and proportion and a right and balanced decor for the event.</p>
+                        <p>We have been baking gourmet cupcakes, 100&#37; from scratch, since day one. We always use the finest and most natural ingredients we can find.</p>
+                        <h1>We can make happiness with so little&#33;</h1>
+                        <p>We can provide services for Weddings, Bar &amp; Bat Mitzvahs, Birthdays, Showers, Corporate Events, and any other special occasion&#33;</p>
+                        <p>Our expert bakers are waiting to create a memorable, unique cupcake bursting with freshness and flavour just for you.</p>
+                        <p>Their delicious taste, great variety and their sweet universe, colorful and flavorful cupcakes make the best choice for a chic desert. How could you resist these delicious cupcakes&#63;</p>
+                    </div>
+                    <img id="dots" src="Assets/images/dots-box2.png" alt="collection of several white dots">
+                </div>
+                <div class="cursive" id="pic-text">Please note: you will be overwhelmed by the sweet content</div>
+                <img class="bottom-img" src="Assets/images/cupcakes.png" alt="four large delicious cupcakes">
+            </section>
+            <footer class="container">
+                <section class="main-footer">
+                    <img id="footer-dots" src="Assets/images/dots-footer.png" alt="collection of small white dots">
+                    <div id="phone-number">
+                        <img id="phone" src="Assets/images/phone.png" alt="small white phone image">
+                        <small>800 264-2099</small>
+                    </div>
+                    <small id="copyright">Copyright &copy; 2015 Sweet Corner. All rights reserved.</small>
+                </section>
+            </footer>
+        </div>
+    </div>
+</body>
+
 </html>
