@@ -11,7 +11,7 @@ You will be building out the Sweet Corner website
 - Using **Bootstrap** make your site **responsive**
 	- Modify the layout of the page to display properly on a cellphone 
 		- Use iPhone 4 as your base
-		- <a href="#" target="_blank">Here is an example mobile layout</a>
+		- <a href="https://github.com/Learning-Fuze/sweet-corner/blob/assets/SC_Preview/sc-mobile.png?raw=true" target="_blank">Here is an example mobile layout</a>
 	- Your page should still display properly on a full sized screen  
 
 - Assets for the page can be found <a href="https://github.com/Learning-Fuze/sweet-corner/tree/assets" target="_blank">Here</a>
