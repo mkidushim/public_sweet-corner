@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('.main-nav').affix({
         offset: {
             top: function(){
-            	return $('.main-nav').offset().top;
+            	return $('.banner-img').height();
             },
             // bottom:function(){
             // 	return this.bottom;
