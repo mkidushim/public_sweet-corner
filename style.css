@@ -1,0 +1,33 @@
+* {
+	color: #754b23;
+	font-size: 16px;
+}
+.nav {
+	
+	margin-right: 20px;
+}
+.head_img {
+	background-image: url('assets/header.png');
+	background-repeat: no-repeat;
+	height: 100px;
+}
+.nav div {
+	display: inline-block;
+	margin-right: 15px;
+	font-weight: bold;
+
+}
+.back_logo {
+	background-image: url('assets/logo.png');
+	background-repeat: no-repeat;
+	height: 225px;
+	background-position: center;
+}
+.pg_break {
+	height: 24px; 
+	background-color: #754b23;
+}
+.back_logo_capt {
+	font-family: cursive;
+	text-align: center;
+}
