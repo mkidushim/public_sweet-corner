@@ -7,8 +7,11 @@
     background-image: url('assets/header.png');
     background-repeat: repeat-x;
     height: 200px;
+    margin-bottom: 200px;
 }
+.navbar-right {
 
+}
 .navbar-right a {
     margin-right: 20px;
     margin-top: 100px;
@@ -28,19 +31,23 @@
 }
 
 .back_logo {
+
     background-image: url('assets/logo.png');
     background-repeat: no-repeat;
     height: 255px;
-    background-attachment: fixed;
+
     margin-top: 100px;
     background-position: center;
 }
 
 .pg_break {
     height: 25px;
+    margin-top: 20px;
     background-color: #754b23;
 }
+.back_logo { 
 
+}
 .back_logo_capt {
     font-family: 'Monotype Corsiva', cursive;
     text-align: center;
@@ -60,9 +67,14 @@
 }
 
 .i_head {
+	margin-top: 25px;
+	margin-left: 15px;
     font-size: 20px;
+    font-weight: bold;
 }
-
+.i_par {
+    margin-left: 15px;
+} 
 .bottom_info {
     margin-top: 20px;
     font-family: 'Monotype Corsiva', cursive;
@@ -87,15 +99,11 @@
 .phone small,
 .phone span {
     color: white;
-    margin-top: 20px
+    margin-top: 30px
 }
 
 .cupcake_pic {}
 
-.back_logo_capt {
-    font-family: 'Monotype Corsiva', cursive;
-    font-weight: 200;
-}
 .no_padding {
 	padding-left: 0px;
 	padding-right: 0px;
