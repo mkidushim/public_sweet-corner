@@ -70,6 +70,7 @@ div.navbar-right {}
     font-family: 'Monotype Corsiva', cursive;
     text-align: center;
     font-weight: 200;
+  
 }
 
 .back_logo_capt_m {
@@ -260,8 +261,11 @@ div.strips_2_m {
     background-color: #f6b53e;
 }
 
-.phone {
-   margin-bottom: 5px;
+.c_phone {
+    width: 310px;
+    height: 35px;
+    margin-top: 15px;
+    padding-left: 10px;
     background-color: #06b4af;
 }
 
@@ -300,4 +304,10 @@ img.up_dots {
     position: relative;
     left: 200px;
     top: 20px;
+}
+
+.btn-group {
+    position: relative;
+    left: 200px;
+    top: 100px;
 }
