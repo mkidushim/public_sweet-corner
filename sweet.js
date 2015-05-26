@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('body').on('click', '.icon-bar.contact', function() {
+    $('body').on('click', '.contact', function() {
         $.ajax({
             url: 'template_test.html',
             dataType: 'html',
@@ -10,7 +10,7 @@ $(document).ready(function(){
             }
         })
     })
-        $('body').on('click', '.icon-bar.home', function() {
+        $('body').on('click', '.home', function() {
         $.ajax({
             url: 'template_test2.html',
             dataType: 'html',
