@@ -23,12 +23,14 @@
                 </div>
             </div>
             <div class="contact_form col-xs-12 col-md-5 col-lg-5">
+            <form action="formhandler.php">
                 <p>Contact Form</p>
-                <input style="border:none" type="text" class="name col-xs-2" placeholder="Name">
-                <input style="border:none" type="text" class="email col-xs-2" placeholder="Email">
-                <input style="border:none" type="text" class="c_phone col-xs-2" placeholder="Phone">
-                <input style="border:none" type="text" class="c_subject col-xs-2" placeholder="Subject">
-                <textarea style="border:none" class="message col-xs-12" placeholder="Message"></textarea>
-                <button style="border:none" type="button" class="c_send col-xs-4 col-sm-8">SEND</button>
+                <input style="border:none" type="text" name="name" class="name col-xs-2" placeholder="Name">
+                <input style="border:none" type="email" name="email" class="email col-xs-2" placeholder="Email">
+                <input style="border:none" type="phone" name="phone" class="c_phone col-xs-2" placeholder="Phone">
+                <input style="border:none" type="text" name="subject" class="c_subject col-xs-2" placeholder="Subject">
+                <textarea style="border:none" name="message" class="message col-xs-12" placeholder="Message"></textarea>
+                <button style="border:none" type="submit" class="c_send col-xs-4 col-sm-8">SEND</button>
                 <img src="assets/down-dots.png" class="down_dots">
+                </form>
             </div>

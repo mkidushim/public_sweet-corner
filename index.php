@@ -2,6 +2,11 @@
 <html>
 
 <head>
+<?php
+$page_links = ['home'=> 'template_home.php', 'contact' => 'template_contact.php', 'services'=> 'template_services.php'];
+
+?>
+
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -9,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="sweet.js"></script>
     <title>Sweet Corner Home</title>
+    
 </head>
 
 <body>
@@ -36,19 +42,19 @@
                 <div class="row visible-xs">
                     <nav class="navbar-collapse bs-navbar-collapse collapse col-xs-12">
                         <ul class="phone_nav nav navbar-nav">
-                            <li class="active home"><a class="home">Home</a></li>
-                            <li><a class="about">About us</a></li>
-                            <li><a class="services">Services</a></li>
-                            <li><a class="contact">Contact</a></li>
+                            <li class="active home"><a href="index.php?page=template_home.php" class="home">Home</a></li>
+                            <li><a href="#" class="about">About us</a></li>
+                            <li><a href="index.php?page=template_services.php" class="services">Services</a></li>
+                            <li><a href="index.php?page=template_contact.php" class="contact">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="row hidden-xs">
                     <ul class='nav navbar-nav navbar-collapse pull-right'>
-                        <li class="active home"><a class="home">Home</a></li>
-                        <li><a class="about">About us</a></li>
-                        <li><a class="services">Services</a></li>
-                        <li><a class="contact">Contact</a></li>
+                            <li class="active home"><a href="index.php?page=home" class="home">Home</a></li>
+                            <li><a href="#" class="about">About us</a></li>
+                            <li><a href="index.php?page=services" class="services">Services</a></li>
+                            <li><a href="index.php?page=contact" class="contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="back_logo col-md-12">
@@ -58,7 +64,16 @@
             </div>
         </header>
         <div class="pg_break col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
-        <div id="main_content"></div>
+        <div id="main_content">
+            
+
+        <?php
+
+//include($page_links[$_GET['page']]);
+include($page_links[$_GET['page']]);
+        ?>
+
+        </div>
         <div class="footer col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <img src="assets/dots-footer.png" class="dots">
             <div class="phone col-xs-6 col-xs-offset-7 col-sm-5 col-sm-offset-7 col-md-5 col-md-offset-7 text-right">
