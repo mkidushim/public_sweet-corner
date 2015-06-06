@@ -1,3 +1,4 @@
+<!--
 $(document).ready(function() {
     $('body').on('click', '.contact', function() {
         $.ajax({
@@ -47,3 +48,4 @@ $(document).ready(function() {
     });
 
 })
+-->
