@@ -6,23 +6,35 @@ $phone = $_GET["phone"];
 $subject = $_GET["subject"];
 $message = $_GET["message"];
 //$array = ['name' => $name, 'email'=> $email, 'phone' => $phone, 'subject' => $subject, 'message' => $message];
-
+echo "$name, $email, $phone, $subject, $message";
 //print_r($array);
-foreach($_post as $key => $value){
+foreach($_POST as $key => $value){
 	switch ($key) {
-		case 'first_name':
-			if(preg_match(^[A-Z][a-zA-Z]+$, $_post['first_name']))
+		case 'name':
+			if(preg_match("/^[a-zA-Z0-9]{2,}$/", $_post['name'])!= 1){
+				print('input name error');
+				break;
+			}
+			print("checking name : $_GET[name]");
 			break;
-		case 'last_name':
+		case 'email':
+			if(preg_match(!filter_var($email), $_GET['email'])){
+				print('input email error');
+				break;
+			}
+			print("checking email : $_GET[email]");
+			break;
+		if(preg_match('/^[0-9]{3}[0-9]{3}[0-9]{4}$/', $_POST['phone']) != 1){
+			print('incorrect phone input');
+			break;
+			}
+			print("checking phone : $_GET[phone]");
+			print('<br/>');
+			break;
+		case 'subject':
 			if(preg_match(pattern, subject))
 			break;
-		case 'first_name':
-			if(preg_match(pattern, subject))
-			break;
-		case 'first_name':
-			if(preg_match(pattern, subject))
-			break;
-		case 'first_name':
+		case 'message':
 			if(preg_match(pattern, subject))
 			break;
 		default:
@@ -30,4 +42,5 @@ foreach($_post as $key => $value){
 			break;
 	}
 }
- ?>}
+
+ ?>
