@@ -42,10 +42,10 @@ $page_links = ['home'=> 'template_home.php', 'contact' => 'template_contact.php'
                 <div class="row visible-xs">
                     <nav class="navbar-collapse bs-navbar-collapse collapse col-xs-12">
                         <ul class="phone_nav nav navbar-nav">
-                            <li class="active home"><a href="index.php?page=template_home.php" class="home">Home</a></li>
+                            <li class="active home"><a href="index.php?page=home" class="home">Home</a></li>
                             <li><a href="#" class="about">About us</a></li>
-                            <li><a href="index.php?page=template_services.php" class="services">Services</a></li>
-                            <li><a href="index.php?page=template_contact.php" class="contact">Contact</a></li>
+                            <li><a href="index.php?page=services" class="services">Services</a></li>
+                            <li><a href="index.php?page=contact" class="contact">Contact</a></li>
                         </ul>
                     </nav>
                 </div>

@@ -199,6 +199,7 @@
 
 .contact_form {
     position: relative;
+    left: 20px;
 }
 .contact_form input {
     text-decoration: none;
