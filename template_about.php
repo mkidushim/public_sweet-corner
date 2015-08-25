@@ -1,0 +1,1 @@
+<h2 class="col-md-6 col-md-offset-3 text-center">My name is Michael Kidushim, I built this page based on a template given to us by Learningfuze Web Development Bootcamp. It is just a simple web site for a generic cupcake company called sweet-corner.   </h2>

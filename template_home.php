@@ -9,7 +9,7 @@
     <p class="i_par col-xs-5 col-xs-offset-5 col-md-7 col-md-offset-5">Their delicious taste, great variety and their sweet universe, colorful and flavorful cupcakes make the best choice for a chic desert. how could you resist these delicious cupcakes?</p>
 </div>
 <div class="strips_2 col-sm-5 col-xs-1 col-lg-5">
-    <img class="dots2" src="assets/dots-box2.png">
+    
 </div>
 <div class="bottom_info col-xs-5 col-xs-offset-2 col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-4 text-center">
     <p>Please note: you will be overwhelmed by the sweet content</p>
