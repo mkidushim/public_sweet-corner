@@ -108,7 +108,7 @@
 .hide-xs {
     position: relative;
     left: 20px;
-    bottom: 800px;
+    bottom: 775px;
 }
 @media screen and (max-width: 650px) {
     .hide-xs{
