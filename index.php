@@ -3,7 +3,7 @@
 
 <head>
 <?php
-$page_links = ['home'=> 'template_home.php', 'contact' => 'template_contact.php', 'services'=> 'template_services.php'];
+$page_links = ['home'=> 'template_home.php', 'contact' => 'template_contact.php', 'services'=> 'template_services.php', 'about'=> 'template_about.php'];
 
 ?>
 
@@ -11,6 +11,7 @@ $page_links = ['home'=> 'template_home.php', 'contact' => 'template_contact.php'
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="sweet.js"></script>
     <title>Sweet Corner Home</title>
@@ -43,7 +44,7 @@ $page_links = ['home'=> 'template_home.php', 'contact' => 'template_contact.php'
                     <nav class="navbar-collapse bs-navbar-collapse collapse col-xs-12">
                         <ul class="phone_nav nav navbar-nav">
                             <li class="active home"><a href="index.php?page=home" class="home">Home</a></li>
-                            <li><a href="#" class="about">About us</a></li>
+                            <li><a href="index.php?page=about" class="about">About</a></li>
                             <li><a href="index.php?page=services" class="services">Services</a></li>
                             <li><a href="index.php?page=contact" class="contact">Contact</a></li>
                         </ul>
@@ -52,7 +53,7 @@ $page_links = ['home'=> 'template_home.php', 'contact' => 'template_contact.php'
                 <div class="row hidden-xs">
                     <ul class='nav navbar-nav navbar-collapse pull-right'>
                             <li class="active home"><a href="index.php?page=home" class="home">Home</a></li>
-                            <li><a href="#" class="about">About us</a></li>
+                            <li><a href="index.php?page=about" class="about">About</a></li>
                             <li><a href="index.php?page=services" class="services">Services</a></li>
                             <li><a href="index.php?page=contact" class="contact">Contact</a></li>
                     </ul>
@@ -77,7 +78,7 @@ include($page_links[$_GET['page']]);
         <div class="footer col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <img src="assets/dots-footer.png" class="dots">
             <div class="phone col-xs-6 col-xs-offset-7 col-sm-5 col-sm-offset-7 col-md-5 col-md-offset-7 text-right">
-                <small><span class="glyphicon glyphicon-phone-alt"></span> 949302-7401</small>
+               <span class="fa fa-linkedin-square linkedin"></span><a class="linkedin" href="https://www.linkedin.com/in/mkidushim">mkidushim</a>
             </div>
             <p class="copyright col-xs-12 col-sm-12 col-md-12 text-center"><small>Copyright &#169 2014 Sweet Corner</small></p>
         </div>

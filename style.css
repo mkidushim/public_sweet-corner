@@ -204,6 +204,11 @@
 .contact_form input {
     text-decoration: none;
 }
+.linkedin {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
 .contact_form p {
     font-weight: bold;
     margin-top: 30px;
